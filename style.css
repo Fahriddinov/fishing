@@ -1,0 +1,23 @@
+   body {
+       font-family: sans-serif;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       background: #f0f0f0;
+       flex-direction: column;
+   }
+
+   video {
+       display: none;
+   }
+
+   button {
+       padding: 10px 20px;
+       font-size: 18px;
+       background-color: green;
+       color: white;
+       border: none;
+       border-radius: 8px;
+       cursor: pointer;
+   }
